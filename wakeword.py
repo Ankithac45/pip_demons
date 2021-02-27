@@ -62,7 +62,7 @@ def run_alexa():
         talk('opening facebook')
         webbrowser.open('https://www.facebook.com')
     elif 'yourself' in command:
-        talk('I am Alexa,I am your digital assistant')
+        talk('Okay,I am Alexa,I am your digital assistant')
     else:
         talk('Please say the command again')
 
