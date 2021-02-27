@@ -42,6 +42,9 @@ def run_alexa():
         song = command
         talk('playing' + song)
         pywhatkit.playonyt(song)
+    elif 'birthday' in command:
+        talk('Sure, Good Night')
+        pywhatkit.sendwhatmsg('+918147477087','Happy Birthday',23,17)
     elif 'time' in command:
         time = datetime.datetime.now().strftime('%I:%M %p')
         talk('Current time is ' + time)
