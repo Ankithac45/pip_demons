@@ -46,7 +46,7 @@ def run_alexa():
         talk('Okay,I am Alexa,I am your digital assistant..Tell me.How can I help You)
     elif 'birthday' in command:
         talk('Sure, Good Night')
-        pywhatkit.sendwhatmsg('+918147477087','Happy Birthday',23,17)
+        pywhatkit.sendwhatmsg('+9187087','Happy Birthday',23,17)
     elif 'time' in command:
         time = datetime.datetime.now().strftime('%I:%M %p')
         talk('Current time is ' + time)
