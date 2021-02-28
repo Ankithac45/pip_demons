@@ -43,7 +43,7 @@ def run_alexa():
         talk('playing' + song)
         pywhatkit.playonyt(song)
     elif 'yourself' in command:
-        talk('Okay,I am Alexa,I am your digital assistant..How can I help You)
+        talk('Okay,I am Alexa,I am your digital assistant..Tell me.How can I help You)
     elif 'birthday' in command:
         talk('Sure, Good Night')
         pywhatkit.sendwhatmsg('+918147477087','Happy Birthday',23,17)
