@@ -1,3 +1,2 @@
 # pip_demons
-My First Repository on Github
-https://youtu.be/Kns7jCr1ssM
+This is a basic Alexa which will play youtube, tell jokes, 
